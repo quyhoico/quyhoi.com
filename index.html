@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html class="fullscreen_page sticky_menu" lang="vi">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,129 +15,144 @@
 <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
 <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/jquery.subtle-slideshow.js"></script>
+    <link rel="stylesheet" href="css/subtle-slideshow.css">
+    <style>
+      .static-content {
+        padding: 20px;
+      }
+      h1 {
+        font-family: sans-serif;
+        margin: 0;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0,0,0,.4);
+      }
+    </style>
 </head>
 <body>
-	<header class="main_header">
-        <div class="header_wrapper">
-        	<div class="logo_sect">
-                <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="logo_def"><img src="img/retina/logo.png" alt="" class="logo_retina"></a>
-                <div class="slogan">Hội đồng niên Quý Hợi</div>
-            </div>                       
-            <div class="header_rp">
-                <nav>
-                    <div class="menu-main-menu-container">
-                    	<ul id="menu-main-menu" class="menu">
-                        	<li class="current-menu-parent menu-item-has-children">
-                            	<a href="/"><span>Home</span></a>                          
-                            </li>
-                            <li class="menu-item-has-children">
-                            	<a href="gallery.html"><span>Gallery</span></a>                         
-                            </li>
-                            <li class="menu-item-has-children">
-                            	<a href="javascript:void(0);"><span>Blog</span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="hoat-dong.html"><span>Hoạt động</span></a></li>
-                                            <li><a href="chuc-tho.html"><span>Chúc thọ</span></a></li>
-                                        </ul>								
-                            </li>
-                            <li class="menu-item-has-children">
-                            	<a href="member.html"><span>Member</span></a>                                
-                            </li>								
-                            <li class="menu-item-has-children">
-                            	<a href="about.html"><span>About</span></a>                                
-                            </li>
-                            <li class="menu-item-has-children">
-                            	<a href="contacts.html"><span>Contact</span></a>
-                            </li>                        
-                        </ul>
-                    </div>
-                </nav>
-			</div>
-            <div class="clear"></div>
-        </div>
-    </header>    
-    <div class="fs_fadder hided"></div>
-	<div class="fs_sharing_wrapper hided"> 
-		<div class="fs_sharing">	
-            <a href="javascript:void(0)" class="share_facebook" target="_blank"><i class="icon-facebook-square"></i></a>
-            <a href="javascript:void(0)" class="share_pinterest" target="_blank"><i class="icon-pinterest"></i></a>                                                            
-            <a href="javascript:void(0)" class="share_tweet" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="javascript:void(0)" class="share_gplus" target="_blank"><i class="icon-google-plus-square"></i></a>
-            <a class="fs_share_close hided" href="javascript:void(0)"></a>
-        </div>
-    </div>      
-    <div class="preloader"></div>    
-	<div class="content_bg"></div>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>    
-    <script type="text/javascript" src="js/modules.js"></script>
-	<script type="text/javascript" src="js/theme.js"></script>
+<header class="main_header">
+<div class="header_wrapper">
+<div class="logo_sect">
+<a href="index.html" class="logo"><img src="img/logo.png" alt="" class="logo_def"><img src="img/retina/logo.png" alt="" class="logo_retina"></a>
+<div class="slogan">Hội đồng niên Quý Hợi</div>
+</div>
+<div class="header_rp">
+<nav>
+<div class="menu-main-menu-container">
+<ul id="menu-main-menu" class="menu">
+<li class="current-menu-parent menu-item-has-children">
+<a href="/"><span>Home</span></a>
+</li>
+<li class="menu-item-has-children">
+<a href="gallery.html"><span>Gallery</span></a>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);"><span>Blog</span></a>
+<ul class="sub-menu">
+<li><a href="hoat-dong.html"><span>Hoạt động</span></a></li>
+<li><a href="chuc-tho.html"><span>Chúc thọ</span></a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="member.html"><span>Member</span></a>
+</li>
+<li class="menu-item-has-children">
+<a href="about.html"><span>About</span></a>
+</li>
+<li class="menu-item-has-children">
+<a href="contacts.html"><span>Contact</span></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="clear"></div>
+</div>
+</header>
+    <div id="slides">
+      <a class="slide" title="Tiết xuân 2023" href="#">
+        <span class="animate down" style="background-image: url(img/gallery/slider/tiet-xuan-2023.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2023</h1></div>
+      </a>
+      <a class="slide" title="Tiết thu 2022" href="#">
+        <span class="animate in" style="background-image: url(img/gallery/slider/tiet-thu-2022.jpg)"></span>
+        <div class="static-content"><h1>Tiết thu 2022</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2021" href="#">
+        <span class="animate down" style="background-image: url(img/gallery/slider/tiet-xuan-2021.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2021</h1></div>
+      </a>
+      <a class="slide" title="Tiết thu 2020" href="#">
+        <span class="animate out" style="background-image: url(img/gallery/slider/tiet-thu-2020.jpg)"></span>
+        <div class="static-content"><h1>Tiết thu 2020</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2020" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2020.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2020</h1></div>
+      </a>
+      <a class="slide" title="Tiết thu 2019" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-thu-2019.jpg)"></span>
+        <div class="static-content"><h1>Tiết thu 2019</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2019" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2019.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2019</h1></div>
+      </a>
+      <a class="slide" title="Tiết thu 2018" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-thu-2018.jpg)"></span>
+        <div class="static-content"><h1>Tiết thu 2018</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2018" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2018.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2018</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2017" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2017.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2017</h1></div>
+      </a>
+      <a class="slide" title="Tiết thu 2016" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-thu-2016.jpg)"></span>
+        <div class="static-content"><h1>Tiết thu 2016</h1></div>
+      </a>	
+      <a class="slide" title="Tiết xuân 2016" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2016.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2016</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2015" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2015.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2015</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2014" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2014.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2014</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2013" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2013.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2013</h1></div>
+      </a>
+      <a class="slide" title="Tiết xuân 2012" href="#">
+        <span class="animate right" style="background-image: url(img/gallery/slider/tiet-xuan-2012.jpg)"></span>
+        <div class="static-content"><h1>Tiết xuân 2012</h1></div>
+      </a>  
+    </div>
+
     <script>
-		gallery_set = [
-			{image: "img/gallery/slider/tiet-xuan-2023.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2023.jpg", alt: "Tiết xuân 2023", title: "Tiết xuân 2023", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},
-			{image: "img/gallery/slider/tiet-thu-2022.jpg", thmb: "img/gallery/slider/thumbs/tiet-thu-2022.jpg", alt: "Tiết thu 2022", title: "Tiết thu 2022", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2021.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2021.jpg", alt: "Tiết xuân 2021", title: "Tiết xuân 2021", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-thu-2020.jpg", thmb: "img/gallery/slider/thumbs/tiet-thu-2020.jpg", alt: "Tiết thu 2020", title: "Tiết thu 2020", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2020.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2020.jpg", alt: "Tiết xuân 2020", title: "Tiết xuân 2020", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},
-			{image: "img/gallery/slider/tiet-thu-2019.jpg", thmb: "img/gallery/slider/thumbs/tiet-thu-2019.jpg", alt: "Tiết thu 2019", title: "Tiết thu 2019", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2019.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2019.jpg", alt: "Tiết xuân 2019", title: "Tiết xuân 2019", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},
-			{image: "img/gallery/slider/tiet-thu-2018.jpg", thmb: "img/gallery/slider/thumbs/tiet-thu-2018.jpg", alt: "Tiết thu 2018", title: "Tiết thu 2018", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2018.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2018.jpg", alt: "Tiết xuân 2018", title: "Tiết xuân 2018", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2017.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2017.jpg", alt: "Tiết xuân 2017", title: "Tiết xuân 2017", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-thu-2016.jpg", thmb: "img/gallery/slider/thumbs/tiet-thu-2016.jpg", alt: "Tiết thu 2016", title: "Tiết thu 2016", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2016.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2016.jpg", alt: "Tiết xuân 2016", title: "Tiết xuân 2016", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2015.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2015.jpg", alt: "Tiết xuân 2015", title: "Tiết xuân 2015", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2014.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2014.jpg", alt: "Tiết xuân 2014", title: "Tiết xuân 2014", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2013.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2013.jpg", alt: "Tiết xuân 2013", title: "Tiết xuân 2013", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"},			
-			{image: "img/gallery/slider/tiet-xuan-2012.jpg", thmb: "img/gallery/slider/thumbs/tiet-xuan-2012.jpg", alt: "Tiết xuân 2012", title: "Tiết xuân 2012", description: "Hội đồng niên Quý Hợi", titleColor: "#ffffff", descriptionColor: "#ffffff"}
-		]
-		
-		jQuery(document).ready(function(){
-			"use strict";
-			jQuery('html').addClass('hasPag');
-			jQuery('body').fs_gallery({
-				fx: 'fade', /*fade, zoom, slide_left, slide_right, slide_top, slide_bottom*/
-				fit: 'no_fit',
-				slide_time: 6600, /*This time must be < then time in css*/
-				autoplay: 200,
-				show_controls: 100,
-				slides: gallery_set
-			});
-			jQuery('.fs_share').click(function(){
-				jQuery('.fs_fadder').removeClass('hided');
-				jQuery('.fs_sharing_wrapper').removeClass('hided');
-				jQuery('.fs_share_close').removeClass('hided');
-			});
-			jQuery('.fs_share_close').click(function(){
-				jQuery('.fs_fadder').addClass('hided');
-				jQuery('.fs_sharing_wrapper').addClass('hided');
-				jQuery('.fs_share_close').addClass('hided');
-			});
-			jQuery('.fs_fadder').click(function(){
-				jQuery('.fs_fadder').addClass('hided');
-				jQuery('.fs_sharing_wrapper').addClass('hided');
-				jQuery('.fs_share_close').addClass('hided');
-			});
-			
-			jQuery('.close_controls').click(function(){
-				if (jQuery(this).hasClass('open_controls')) {
-					jQuery('.fs_controls').removeClass('hide_me');
-					jQuery('.fs_title_wrapper ').removeClass('hide_me');
-					jQuery('.fs_thmb_viewport').removeClass('hide_me');
-					jQuery('header.main_header').removeClass('hide_me');
-					jQuery(this).removeClass('open_controls');
-				} else {		
-					jQuery('header.main_header').addClass('hide_me');
-					jQuery('.fs_controls').addClass('hide_me');
-					jQuery('.fs_title_wrapper ').addClass('hide_me');
-					jQuery('.fs_thmb_viewport').addClass('hide_me');
-					jQuery(this).addClass('open_controls');
-				}
-			});
-			
-			jQuery('.main_header').removeClass('hided');
-			jQuery('html').addClass('without_border');			
-		});
-	</script> 
-    <script type="text/javascript" src="js/fs_gallery.js"></script>
+      // These are te default settings.
+      $('#slides').slideshow({
+        randomize: false,      // Randomize the play order of the slides.
+        slideDuration: 9000,  // Duration of each induvidual slide.
+        fadeDuration: 1000,    // Duration of the fading transition. Should be shorter than slideDuration.
+        animate: true,        // Turn css animations on or off.
+        pauseOnTabBlur: false, // Pause the slideshow when the tab is out of focus. This prevents glitches with setTimeout().
+        enableLog: false      // Enable log messages to the console. Useful for debugging.
+      });
+    </script>
+<div class="content_bg"></div>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/modules.js"></script>
+<script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/fs_gallery.js"></script>
 </body>
 </html>
