@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="fullscreen_page sticky_menu" lang="vi">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="static/images/favico.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="static/images/apple_icons_57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="static/images/apple_icons_72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="static/images/apple_icons_114x114.png">
+<title>Quý Hội | Hội đồng niên Quý Hợi</title>
+<link rel="stylesheet" href="static/stylesheets/default.css" type="text/css" media="all">
+<link rel="stylesheet" href="static/stylesheets/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" href="static/stylesheets/custom.css" type="text/css" media="all">
+<script type="text/javascript" src="static/javascript/jquery.min.js"></script>
+</head>
+<body>
+	<header class="main_header">
+        <div class="header_wrapper">
+        	<div class="logo_sect">
+                <a href="/" class="logo"><img src="static/images/logo.png" alt="Hội đồng niên Quý Hợi" class="logo_def"><img src="static/images/retina/logo.png" alt="Hội đồng niên Quý Hợi" class="logo_retina"></a>
+                <div class="slogan">Hội đồng niên Quý Hợi</div>
+            </div>                       
+            <div class="header_rp">
+                <nav>
+                    <div class="menu-main-menu-container">
+                    	<ul id="menu-main-menu" class="menu">
+                        	<li class="current-menu-parent menu-item-has-children">
+                            	<a href="/"><span>Home</span></a>                          
+                            </li>
+                            <li class="menu-item-has-children">
+                            	<a href="gallery.html"><span>Gallery</span></a>                         
+                            </li>
+                            <li class="menu-item-has-children">
+                            	<a href="javascript:void(0);"><span>Blog</span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="hoat-dong.html"><span>Hoạt động</span></a></li>
+                                            <li><a href="chuc-tho.html"><span>Chúc thọ</span></a></li>
+                                        </ul>								
+                            </li>
+                            <li class="menu-item-has-children">
+                            	<a href="member.html"><span>Member</span></a>                                
+                            </li>								
+                            <li class="menu-item-has-children">
+                            	<a href="about.html"><span>About</span></a>                                
+                            </li>
+                            <li class="menu-item-has-children">
+                            	<a href="contacts.html"><span>Contact</span></a>
+                            </li>                        
+                        </ul>
+                    </div>
+                </nav>
+			</div>
+            <div class="clear"></div>
+        </div>
+    </header>   
+    <div class="wrapper404">
+        <div class="container404">
+        	<h1 class="title404">404 Error</h1>
+            <div class="clear"></div>
+        </div>        
+    </div>
+    <div class="custom_bg img_bg bg1"></div>	       
+	<div class="content_bg"></div>
+    <script type="text/javascript" src="static/javascript/modules.js"></script>
+	<script type="text/javascript" src="static/javascript/default.js"></script> 
+    <script>
+		jQuery(document).ready(function(){
+			"use strict";
+			jQuery('.wrapper404').css('margin-top', -1*(jQuery('.wrapper404').height()/2)+(jQuery('header.main_header').height()-30)/2);
+		});
+		jQuery(window).resize(function(){
+			"use strict";
+			jQuery('.wrapper404').css('margin-top', -1*(jQuery('.wrapper404').height()/2)+(jQuery('header.main_header').height()-30)/2);
+		});
+	</script>
+</body>
+</html>
